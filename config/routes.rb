@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
   post '/contact' => 'contact#create'
 
-  mount MailPreview => 'mail_view'
+  if Rails.env.development?
+    mount MailPreview => 'mail_view'
+  end
 end
