@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require jquery.easing.min
 //= require classie
 //= require cbpAnimatedHeader.min
 //= require jqBootstrapValidation

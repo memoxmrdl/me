@@ -9,13 +9,11 @@
     %title Guillermo Moreno
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = stylesheet_link_tag '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body#page-top.index
     = render file: 'modules/nav'
     = render file: 'modules/header'
-    = render file: 'modules/portfolio'
     = render file: 'modules/about'
     = render file: 'modules/contact'
     = render file: 'modules/footer'
-    = yield
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
