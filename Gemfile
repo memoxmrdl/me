@@ -12,6 +12,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'pretty_formatter'
+gem 'mail_view'
 
 group :production do
   gem 'rails_12factor'
@@ -26,7 +27,6 @@ end
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'mail_view'
 end
 
 group :development, :test do
