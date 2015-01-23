@@ -11,6 +11,11 @@ gem 'puma'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
+gem 'pretty_formatter'
+
+group :production do
+  gem 'rails_12factor'
+end
 
 group :assets do
   gem 'sass-rails', '~> 5.0'
@@ -19,7 +24,6 @@ group :assets do
 end
 
 group :development do
-  gem 'pretty_formatter'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'mail_view'
