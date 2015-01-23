@@ -22,6 +22,7 @@ group :development do
   gem 'pretty_formatter'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'mail_view'
 end
 
 group :development, :test do
